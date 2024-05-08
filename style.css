@@ -1,0 +1,69 @@
+* 
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.container
+{
+    background-color: grey;
+    width: 310px;
+    height: 390px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+input
+{
+    width: 98%;
+    height: 60px;
+    background-color: aliceblue;
+    color: black;
+    border: none;
+    font-size: larger;
+    border-radius: 10px;
+    padding-right: 5px;
+    margin-bottom: 5px;
+    text-align: right;
+    box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+button
+{
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover
+{
+    background-color: beige;
+}
+
+button:active
+{
+    background-color: gainsboro;
+    color: white;
+}
+
+#equal
+{
+    background-color: orange;
+}

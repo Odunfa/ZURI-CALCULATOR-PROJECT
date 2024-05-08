@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMPLE CALCULATOR</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+        <div class="calculator">
+
+            <table>
+
+                <!--INPUT-->
+                <tr class="display1">
+                    <td colspan="4">
+                        <input type="text" title="display" name="display" id="display" readonly>
+                    </td>
+                </tr>
+
+                <!--2ND ROW-->
+                <tr class="row1">
+                    <td>
+                        <button type="button" value="7" title="seven" onclick="appendToDisplay('7')">7</button>
+                    <td>
+                        <button type="button" value="8" title="eight" onclick="appendToDisplay('8')">8</button>
+                    </td>
+                    <td>
+                        <button type="button" value="9" title="nine" onclick="appendToDisplay('9')">9</button>
+                    </td>
+                    <td>
+                        <button type="button" value="/" title="divide" onclick="appendToDisplay('/')">÷</button>
+                    </td>
+                </tr>
+
+                <!--2ND ROW-->
+                <tr class="row2">
+                    <td>
+                        <button type="button" value="4" title="four" onclick="appendToDisplay('4')">4</button>
+                    </td>
+                    <td>
+                        <button type="button" value="5" title="five" onclick="appendToDisplay('5')">5</button>
+                    </td>
+                    <td>
+                        <button type="button" value="6" title="six" onclick="appendToDisplay('6')">6</button>
+                    </td>
+                    <td>
+                        <button type="button" value="X" title="asterisk" onclick="appendToDisplay('*')">x</button>
+                    </td>
+                </tr>
+
+                <!--3RD ROW-->
+                <tr class="row3">
+                    <td>
+                        <button type="button" value="1" title="one" onclick="appendToDisplay('1')">1</button>
+                    </td>
+                    <td>
+                        <button type="button" value="2" title="two" onclick="appendToDisplay('2')">2</button>
+                    </td>
+                    <td>
+                        <button type="button" value="3" title="three" onclick="appendToDisplay('3')">3</button>
+                    </td>
+                    <td>
+                        <button type="button" value="-" title="minus" onclick="appendToDisplay('-')">-</button>
+                    </td>
+                </tr>
+
+                <!--4TH ROW-->
+                <tr class="row4">
+                    <td>
+                        <button type="button" value="0" title="zero" onclick="appendToDisplay('0')">0</button>
+                    </td>
+                    <td>
+                        <button type="button" value="." title="period" onclick="appendToDisplay('.')">.</button>
+                    </td>
+                    <td>
+                        <button type="button" value="+" title="plus" onclick="appendToDisplay('+')">+</button>
+                    </td>
+                    <td>
+                        <button type="button" value="=" title="equal" id="equal" onclick="calculate()">=</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <p>
+        <a href="">Repository Link</a>
+    </p>
+    <script src="./script.js"></script>
+</body>
+
+</html>
